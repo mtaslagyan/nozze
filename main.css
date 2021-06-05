@@ -1,0 +1,87 @@
+
+.top-header .row{
+    justify-content: space-between;
+    font-family: "Open Sans Condensed";
+}
+.header-tags{
+    float: right;
+}
+.header-tags span:nth-child(2){
+    border-left:#fccec0 solid 1px;
+    padding-left:15px;
+}
+.header-tags span{
+    margin-left: 15px;
+    font-size:20px;
+    color: rgb(87, 87, 87);
+}
+header{
+    background-image: url("header-bg.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position:top left;
+    height:200px;
+    border-bottom: #fccec0 solid 1px;
+}
+.header-title{
+    font-family: "Dancing Script";
+    text-align: center;
+    font-size: 56px;
+    color:#98b19b;
+}
+.nav{
+    text-transform: uppercase;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: 'Open Sans Condensed';
+    font-size:20px;
+    color: rgb(87, 87, 87);
+}
+.nav ul li{
+    margin-left: 55px;
+}
+.nav ul li a{
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    transition:.25s ease-in-out;
+}
+.nav ul li a:hover{
+    color: #fccec0;
+}
+.nav ul li:first-child{
+    margin-left:0;
+}
+.home-intro{
+    color:white;
+    font-size:74px;
+    text-align: center;
+}
+.main-content{
+    background-image: url("image.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    height:calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content div{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "Alfa Slab One";
+    border: #98b19b solid 1px;
+    background:rgba(0, 0, 0, 0.4);
+    padding:30px;
+    color:#98b19b;
+}
+.main-content div span{
+    font-family: "Dancing Script";
+    text-transform: none;
+    color:#fccec0;
+    display: block;
+    text-align: center;
+}
